@@ -62,7 +62,20 @@ class LinkedList():
         # If value does not exist
         return None
 
+    def length(self, node):
+        count = 1
+        while node.next != None:
+            count += 1
+            node = node.next
 
+    def sort_list(self):
+
+        def merge_sort(self, current_node):
+            pass
+
+
+        merge_sort(self.head)
+        
 
 
 if __name__ == '__main__':
